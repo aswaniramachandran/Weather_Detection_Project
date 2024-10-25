@@ -1,0 +1,133 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.weather-section, .threshold-section, .summary-section {
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.weather-item:last-child {
+    border-bottom: none; /* Remove border for last item */
+}
+
+.weather-details {
+    margin-top: 5px;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.button-group button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white;
+    font-size: 16px;
+}
+
+.threshold-section {
+    background-color: #e9f7ef; /* Light green background for threshold section */
+}
+
+.threshold-section input {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.summary-section .summary-item {
+    margin-bottom: 15px;
+}
+
+.summary-list {
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #4CAF50; /* Green color for headings */
+}
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s;
+}
+#summary-container {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #e1e1e1; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0; /* Margin outside the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.summary-heading {
+    text-align: center; /* Center the heading */
+    font-size: 24px; /* Size of the heading */
+    color: #333; /* Darker text color */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 1px; /* Space between letters */
+}
+
+.summary-item {
+    background-color: #fff; /* White background for summary items */
+    border: 1px solid #e1e1e1; /* Border for items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    margin-bottom: 10px; /* Space between items */
+    transition: transform 0.2s; /* Smooth transformation */
+}
+
+.summary-item:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.summary-item h3 {
+    font-size: 20px; /* Heading size for individual summaries */
+    margin: 0 0 10px; /* Space below the heading */
+    color: #007BFF; /* Highlight color for headings */
+}
+
+.summary-item p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #555; /* Lighter text color for paragraphs */
+}
